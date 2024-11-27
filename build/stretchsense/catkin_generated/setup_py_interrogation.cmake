@@ -1,0 +1,7 @@
+set(stretchsense_SETUP_PY_SETUP_MODULE "distutils.core")
+set(stretchsense_SETUP_PY_VERSION "0.0.0")
+set(stretchsense_SETUP_PY_SCRIPTS "")
+set(stretchsense_SETUP_PY_PACKAGES "stretchsense")
+set(stretchsense_SETUP_PY_PACKAGE_DIRS "src/stretchsense")
+set(stretchsense_SETUP_PY_MODULES "")
+set(stretchsense_SETUP_PY_MODULE_DIRS "")

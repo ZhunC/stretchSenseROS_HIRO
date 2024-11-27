@@ -1,0 +1,8 @@
+prefix=/home/rbemotion17/stretch_sense_ws/devel/.private/stretchsense
+
+Name: stretchsense
+Description: Description of stretchsense
+Version: 0.0.0
+Cflags: -I/home/rbemotion17/stretch_sense_ws/devel/.private/stretchsense/include
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs message_runtime
