@@ -1,0 +1,25 @@
+drawCap.py
+MoCap.py.ipynb
+test.py
+tst.py
+Knitted_Cap.ipynb
+ss.joblib
+stretchsenseBLE.py
+theta_ss.csv
+theta_ss_zy.csv
+theta.csv
+fingGest.joblib
+*.pyc
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
