@@ -1,4 +1,7 @@
-# StretchSenseROS
+# StretchSenseROS_HIRO
+
+Forked repo intended for usage with the stretch sense glove in HIRO Lab at WPI. Original ReadMe is as belows:
+
 
 This package is used to connect to a StretchSense peripheral via Bluetooth and publish its sensor data to the ROS network.
 
