@@ -52,13 +52,25 @@ class Trainer:
         # Training targets modified to make better sense
         self.TRAINING_TARGETS: np.ndarray = np.array([
             [0, 0, 0, 0, 0, 0], # thumb adhere to index. hand flat
+            [45, -15, 0, 0, 0, 0],
             [-45, 0, 0, 0, 0, 0], # thumb 45deg up
             [0, -45, 0, 0, 0, 0], # thumb 45deg side
             [0, -45, -90, -90, -90, -90], # curl four fingers, thumb still out
+            [45, -15, -90, -90, -90, -90], # curl four fingers
             [0, -45, 0, -90, -90, -90], # only index out
+            [45, -15, 0, -90, -90, -90], # only index out thumb in
             [0, -45, -90, 0, -90, -90], # only middle out
+            [45, -15, -90, 0, -90, -90], # only middle out thumb in
             [0, -45, -90, -90, 0, 0], # ring and pinky out
-            [0, -45, 0, -90, -90, 0] # index and pinky out, 'rock' hand sign but with thumb still out
+            [0, -45, 0, -90, -90, 0], # index and pinky out, 'rock' hand sign but with thumb still out
+            [0, -45, -90, -90, 0, -90], # if you like it then you shoulda put a ring on it
+            [45, -15, -90, -90, 0, -90], # if you like it then you shoulda put a ring on it thumb
+            [0, -45, -90, -90, -90, 0], # pinky
+            [45, -15, -90, -90, -90, 0], # pinky thumb in
+            [0, -45, 0, 0, -90, -90], #pew pew
+            [45, -15, -45, -45, -45, -45] #curl
+           
+
         ])
 
         self._NUM_GESTURES: int = self.TRAINING_TARGETS.shape[0]
